@@ -41,21 +41,73 @@ start of css file
 	color: #ffe3aa;
 }*/
 
-
-body {
-	background-color: rgba(229, 172, 103, 0.5);
-	background-color: teal;
-	overflow: scroll; /* Show scrollbars */
+nav {
+	max-width: 800px;
+	margin: auto;
+	font-size: 1.5em;
 }
 
+nav ul {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
 
+nav ul li {
+	flex-flow: row wrap;
+	list-style-type: none;
+	padding:0.3rem;
+	max-width: 100%;
+
+}
+
+::selection {
+  background: #0080FF;
+  text-shadow: none;
+}
+
+body {
+
+/*	background-color: rgba(229, 172, 103, 0.5);
+	background-color: teal;*/
+	overflow: scroll; /* Show scrollbars */
+
+/*	terminal example https://css-tricks.com/old-timey-terminal-styling/ */
+	background-color: black;
+  	background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%);
+	height: 100vh;
+/*	terminal example*/
+	color: white;
+  	font: 1.3rem Inconsolata, monospace;
+  	text-shadow: 0 0 5px #C8C8C8;
+
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
 
 nav {
 
 	background-color: teal;
 	max-width: 800px;
 	margin: auto;
-	font-size: 1.5em;
+	font-size: 1rem;
 	border-radius: 0.2rem;
 	text-transform: uppercase;
 }
@@ -119,7 +171,25 @@ p {
 /*	font-size: 1rem;*/
 }
 
+.pullquote {
+	display: flex;
+/*	flex-direction: column;*/
+	justify-content: center;
 
+}
+
+.pullquote p {
+	display: flex;
+	font-size: 3rem;
+	padding: 1rem;
+}
+
+.pullquote img {
+	display: flex;
+	width: 50%;
+	border-radius: 2rem;
+
+}
 
 
 footer {
