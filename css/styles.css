@@ -1,72 +1,4 @@
-start of css file
 
-
-
-
-/*.skip-link {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  border: 0;
-}
-
-.skip-link:focus{
-  width: unset;
-  height: unset;
-  position: relative;
-  padding: unset;
-  margin: unset;
-  font-size: 2rem;
-}
-*/
-/*.anchor-nav {
-	display: flex;
-	position: sticky;
-	top: 10px;
-	justify-content: space-evenly;
-	width: 80%;
-	background-color: teal;
-	margin: auto;
-	padding: 0.5rem;
-	color: #FFE3AA;
-	text-transform: uppercase;
-	border-radius: 1rem;
-
-}*/
-
-/*.anchor-nav a {
-	color: #ffe3aa;
-}*/
-
-nav {
-	max-width: 800px;
-	margin: auto;
-	font-size: 1.5em;
-}
-
-nav ul {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	justify-content: space-between;
-	
-}
-
-nav ul li {
-	flex-flow: row wrap;
-	list-style-type: none;
-	padding:0.3rem;
-	max-width: 100%;
-
-}
-
-/*::selection {
-  background: #0080FF;
-  text-shadow: none;
-}*/
 
 body {
 
@@ -86,21 +18,7 @@ body {
 
 }
 
-main::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(black, 0.15),
-    rgba(black, 0.15) 1px,
-    transparent 1px,
-    transparent 2px
-  );
-}
+
 
 nav {
 
@@ -181,6 +99,11 @@ p {
 /*	font-size: 1rem;*/
 }
 
+img {
+		align-items: center;
+		width: 100%;
+	}
+
 .pullquote {
 	display: flex;
 /*	flex-direction: column;*/
@@ -198,7 +121,51 @@ p {
 	display: flex;
 	width: 50%;
 	border-radius: 2rem;
+	box-shadow: 10px 5px 5px #ff9966;
 
+}
+
+
+
+.flex-example {
+	display: flex;
+
+}
+
+.flex-example-space {
+	margin:1rem;
+}
+
+
+.flex-example2 {
+	
+}
+
+.blue {
+	
+	
+	width: 300px;
+	background-color: blueviolet;
+	padding: 1rem;
+}
+
+
+.red {
+	width: 300px;
+	background-color: crimson;
+	padding: 1rem;
+}
+
+.green {
+	width: 300px;
+	background-color: greenyellow;
+	padding: 1rem;
+}
+
+.teal {
+	width: 300px;
+	background-color: teal;
+	padding: 1rem;
 }
 
 
