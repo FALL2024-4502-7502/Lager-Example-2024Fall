@@ -63,10 +63,10 @@ nav ul li {
 
 }
 
-::selection {
+/*::selection {
   background: #0080FF;
   text-shadow: none;
-}
+}*/
 
 body {
 
@@ -104,7 +104,7 @@ body::after {
 
 nav {
 
-	background-color: teal;
+	background-color: ;
 	max-width: 800px;
 	margin: auto;
 	font-size: 1rem;
@@ -117,10 +117,12 @@ nav ul {
 	align-items: stretch;
 	flex-direction: row;
 	justify-content: space-evenly;
+
 	
 }
 
 nav ul li {
+	
 	background-color: whitesmoke;
 	flex-flow: row wrap;
 	align-items: stretch;
@@ -132,7 +134,15 @@ nav ul li {
 }
 
 nav ul li a {
-	font-family: 'Playfair Display', serif;
+/*	font-family: 'Playfair Display', serif;*/
+	
+
+
+	font-family: "Pixelify Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: <weight>;
+	font-style: normal;
+
 	text-decoration: none;
 	color: forestgreen;
 }
