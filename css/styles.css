@@ -131,9 +131,10 @@ img {
 
 .pullquote img {
 	display: flex;
-	width: 50%;
+	width: 200px;
+	height: 200px;
 	max-width: 200px;
-	border-radius: 10rem;
+	border-radius: 50%;
 	box-shadow: 10px 5px 5px #ff9966;
 
 }
@@ -196,9 +197,10 @@ footer {
 h1 {
 	font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 	margin: 1rem;
+	margin-left: -5rem;
 	color: #434343;
 /*	text-decoration: line-through;*/
 /*	text-transform: uppercase;*/
