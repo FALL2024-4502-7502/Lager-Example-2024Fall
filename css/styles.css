@@ -18,7 +18,13 @@ body {
 
 }
 
+a {
+	color: orange;
+}
 
+a:visited {
+	color: orangered;
+}
 
 nav {
 
@@ -210,8 +216,10 @@ h2 {
 }
 
 h3 {
-	font-family: 'IBM+Plex', monospace;
+	font-family: "IBM Plex Sans", sans-serif;
+/*	font-family: 'IBM+Plex', monospace;*/
 	color: #434343;
+	font-weight: 400;
 /*This is a note*/
 }
 
