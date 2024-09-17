@@ -24,6 +24,7 @@ a {
 
 a:visited {
 	color: orangered;
+	text-decoration: none;
 }
 
 nav {
@@ -110,7 +111,13 @@ p {
 	
 }
 
-
+.example-square {
+	background-color: lightgray;
+	border: 5px solid rgba(95, 63, 158, 0.5);
+	padding: 5px;
+	margin: 5px;
+	border-radius: 30%;
+}
 
 img {
 		align-items: center;
