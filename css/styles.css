@@ -7,14 +7,14 @@ body {
 	overflow: scroll; /* Show scrollbars */
 
 /*	terminal example https://css-tricks.com/old-timey-terminal-styling/ */
-	background-color: black;
+/*	background-color: black;
   	background-image: radial-gradient(
     rgba(0, 150, 0, 0.75), black 120%);
-	height: 100vh;
+	height: 100vh;*/
 /*	terminal example*/
-	color: white;
+/*	color: white;
   	font: 1.3rem Inconsolata, monospace;
-  	text-shadow: 0 0 5px #C8C8C8;
+  	text-shadow: 0 0 5px #C8C8C8;*/
 
 }
 
@@ -96,8 +96,16 @@ main {
 
 p {
 	font-family: font-family: 'Noto Sans', sans-serif;
-/*	font-size: 1rem;*/
+	font-size: 1rem;
 }
+
+.squirrel {
+	background-image: ;
+	font-size: 1.4rem;
+	
+}
+
+
 
 img {
 		align-items: center;
@@ -181,9 +189,14 @@ footer {
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 900;
+	font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 	margin: 1rem;
+	color: #434343;
+/*	text-decoration: line-through;*/
+/*	text-transform: uppercase;*/
 }
 
 h2 {
