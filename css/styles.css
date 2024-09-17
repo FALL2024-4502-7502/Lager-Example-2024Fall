@@ -34,7 +34,7 @@ nav ul {
 	display: flex;
 	align-items: stretch;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: right;
 
 	
 }
@@ -45,9 +45,10 @@ nav ul li {
 	flex-flow: row wrap;
 	align-items: stretch;
 	list-style-type: none;
-	padding: 1rem;
+	padding: 0.3rem;
+	margin: 0.1rem;
 	max-width: 100%;
-	border-radius: 0.1rem;
+	border-radius: 0.5rem;
 
 }
 
@@ -116,19 +117,23 @@ img {
 	display: flex;
 /*	flex-direction: column;*/
 	justify-content: center;
-
+	background-color: darkcyan;
+	border-radius: .5rem;
 }
 
 .pullquote p {
 	display: flex;
 	font-size: 3rem;
 	padding: 1rem;
+	text-transform: ;
+	font-style: oblique;
 }
 
 .pullquote img {
 	display: flex;
 	width: 50%;
-	border-radius: 2rem;
+	max-width: 200px;
+	border-radius: 10rem;
 	box-shadow: 10px 5px 5px #ff9966;
 
 }
@@ -206,7 +211,7 @@ h2 {
 
 h3 {
 	font-family: 'IBM+Plex', monospace;
-
+	color: #434343;
 /*This is a note*/
 }
 
