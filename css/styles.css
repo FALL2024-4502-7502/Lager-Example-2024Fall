@@ -110,8 +110,8 @@ p {
 	background-color: lightgray;
 	border: 5px solid rgba(95, 63, 158, 0.5);
 	padding: 5px;
-	margin: 5px;
-	border-radius: 30%;
+	margin: 50px;
+	border-radius: 10px;
 }
 
 .wave-section {
