@@ -187,6 +187,54 @@ p {
 }
 
 
+.red-static {
+	position: static;
+	width: 300px;
+	background-color: crimson;
+	padding: 1rem;
+}
+
+.blue-relative {
+	position: relative;
+	top: 50px;
+	right: 50px;
+	width: 300px;
+	background-color: slateblue;
+	padding: 1rem;
+}
+
+.green-absolute {
+	position: absolute;
+	top: 60px;
+	left: 75px;
+	width: 300px;
+	background-color: greenyellow;
+	padding: 1rem;
+}
+
+
+.orange-sticky {
+	position: sticky;
+	top: 5rem;
+	width: 300px;
+	background-color: darkorange;
+	padding: 1rem;
+
+}
+
+.yellow-fixed {
+	position: fixed;
+	top: 5rem;
+	right: 10rem;
+	width: 300px;
+	background-color: goldenrod;
+	padding: 1rem;
+	-webkit-box-shadow: -18px 17px 18px -3px rgba(212,101,212,0.46);
+	-moz-box-shadow: -18px 17px 18px -3px rgba(212,101,212,0.46);
+	box-shadow: -18px 17px 18px -3px rgba(212,101,212,0.46);
+	border-radius: 3px;
+
+}
 
 
 img {
