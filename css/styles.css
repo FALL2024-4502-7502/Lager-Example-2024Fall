@@ -222,6 +222,44 @@ p {
 }
 
 
+
+
+
+
+.picture-centered-text {
+	display: flex;
+	flex-direction: column;
+
+	background-color: orangered;
+	border-radius: .5rem;
+}
+
+.picture-centered-text p {
+	margin: auto;
+	font-size: 1rem;
+	padding: 1rem;
+	
+}
+
+.picture-centered-text a {
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: space-around;
+	 margin: auto;
+}
+
+.picture-centered-text a img {
+
+  margin: auto;
+	max-width: 200px;
+	
+	
+
+}
+
+
+
 .red-static {
 	position: static;
 	width: 300px;
