@@ -13,6 +13,16 @@ body {
 
 }
 
+/*.flexible {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex1 {
+	display: flex;
+	justify-content: center;
+}*/
+
 a {
 	color: orange;
 }
@@ -87,6 +97,31 @@ a:hover {
 
 }
 
+
+
+.border-example {
+	margin: auto;
+	max-width:200px;
+	padding: ;
+	border-radius:5px;
+/*		border: 1px solid	rgba(127,255,0,0.5);*/
+		border: 1px inset rgba(227,38,54,1);
+/*		border: 9px solid rgba(227,38,54,1);*/
+}
+
+
+.border-example img {
+	max-width: 190px;
+	border: 5px dotted forestgreen;
+	margin:auto;
+/*	margin-right: 5px;*/
+/*	padding: 5px;*/
+}
+
+.border-example p {
+padding: 5px;
+
+}
 
 main {
 	max-width: 800px;
@@ -321,6 +356,7 @@ img {
 footer {
 	font-family: 'Playfair Display', serif;
 	font-weight: 100;
+
 	color: seagreen;
 /*	background-color: whitesmoke;*/
 	max-width: 800px;
