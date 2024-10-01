@@ -99,16 +99,18 @@ nav ul li a:hover {
 }
 
 
-/*a:visited {
-  color: cyan;
+a:visited {
+  color: black;
   text-decoration-color: hotpink;
   
-}*/
+}
 
 a:hover {
 
 }
-
+.swap-example {
+	background-image: url(../img/crab.png);
+}
 
 main {
 	max-width: 800px;
@@ -248,7 +250,7 @@ wiki link wiki-link*/
 /*	flex-wrap: wrap;*/
 	box-shadow: inset 1rem 1rem #f9f3db;
 	border-radius: 3px;
-/*	max-width: 300px;*/
+
 }
 
 
@@ -282,7 +284,33 @@ wiki link wiki-link*/
 
 .list-link {
 	text-decoration: underline solid rgba(153,0,0,.5) 5px;
+	color: darkgoldenrod;
 
+
+}
+
+.list-link p {
+/*	margin: 0.1rem;*/
+color: darkmagenta;
+background-color: lightgray;
+}
+
+.list-link a {
+	color: #f8e8d6;
+	background-color: rgba(67, 67, 67, 0.3);
+	padding: 0.4em;
+	margin-left: 2rem;
+	border: 1px solid rgba(67, 67, 67, 0.3);
+}
+
+.list-link p a:visited {
+	color: magenta;
+	background: lightgrey;
+}
+
+.list-link a:visited {
+	color: darkblue;
+	background: lightgrey;
 }
 
 .list-image {
@@ -602,11 +630,31 @@ main {
 	width: 100%
 }
 
+.list-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.list-image {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.list-image img {
+	max-width: 90%;
+}
+
 img {
 	display: flex;
 		align-items: center;
 		width: 100%;
 	}
+
+.swap-example {
+	background-image: url(../img/2001.png);
+}
 
 h1 {
 	font-weight: 700;
@@ -616,6 +664,8 @@ h1 {
 h2 {
 	font-weight: 500;
 	font-size: 2.3rem;
+	margin-left: 1rem;
+	padding-left: 0.;
 }
 
 p {
@@ -653,7 +703,7 @@ nav ul li {
 
 nav ul li a {
 
-	text-decoration: overline;
+/*	text-decoration: overline;*/
 	text-transform: uppercase;
 }
 
