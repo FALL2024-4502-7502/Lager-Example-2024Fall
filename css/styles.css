@@ -444,6 +444,36 @@ p {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+/*gallery css*/
+.gallery {
+
+
+}
+
+button_next {
+
+}
+
+button_previous {
+
+}
+
+stepper {
+
+}
+
+.hideThis {
+	display: none;
+}
+
+.gallery-image {
+
+}
+
+
+
+
+
 
 /*Photo gallery css for gallery-test*/
 
