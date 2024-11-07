@@ -485,7 +485,9 @@ stepper {
 }
 
 
+.gallery-descrip {
 
+}
 
 
 .button_holder {
@@ -923,7 +925,8 @@ img {
 
 h1 {
 	font-weight: 700;
-	text-decoration: underline 2rem solid gold;
+
+/*	text-decoration: underline 2rem solid gold;*/
 }
 
 h2 {
@@ -980,6 +983,119 @@ nav ul li a {
 
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+
+
+/*gallery small screen*/
+
+.gallery-section { 
+	background-color: #194e8e;
+	padding-top: 0.2rem;
+	border-radius: 0.5rem;
+ }
+
+.gallery-example {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+
+.gallery-descrip {
+	margin-left: 0.8rem;
+	margin-right: 0.8rem;
+}
+
+.gallery-descrip h1 {
+	color:#fff;
+	font-size: 3rem;
+
+}
+
+.gallery-descrip p {
+	color: #fff;
+
+}
+
+figcaption {
+	color: #fff;
+}
+
+
+/*.orange-sticky {
+	position: sticky;
+	top: 5rem;
+	width: 300px;
+	background-color: darkorange;
+	padding: 1rem;
+
+}*/
+
+
+
+
+.button_holder {
+	
+	display: flex;
+	flex-direction: row;
+	color: #fff;
+}
+
+button_next {  }
+button_previous {  }
+
+stepper { 
+	
+ }
+
+
+
+button {
+	background-color: lightblue;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+	border: 5px solid	rgba(127,255,0,0.5);
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
+
+.gallery-image {
+	max-width: 80%;
+	
+
+}
+
+.gallery-image img {
+	width: 100%;
+/*	max-height: 500px;*/
+}
+
+.hideThis {
+	display: none;
+}
+
+example-image {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+
+}
+
+.example-image img {
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
 }
 
 
