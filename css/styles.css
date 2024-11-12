@@ -102,7 +102,16 @@ a:hover {
 
 }
 
+/*Skip links */
 
+.skip-link {
+  position: absolute;
+  top: -3em;
+  background: #fff;
+}
+.skip-link:focus {
+  top: 0;
+}
 
 .border-example {
 	margin: auto;
@@ -1082,9 +1091,7 @@ button {
 
 
 
-.embed {
-	border-radius: 0.5;
-}
+
 
 .hideThis {
 	display: none;
@@ -1160,6 +1167,11 @@ example-image {
 @media screen and (min-width:501px){
 	body {
 		background-color: #67a0e5;
+}
+
+.gallery-descrip p {
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;
 }
 
 
