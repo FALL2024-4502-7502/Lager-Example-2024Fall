@@ -473,9 +473,7 @@ stepper {
 
 }
 
-.hideThis {
-	
-}
+
 
 .gallery-image {
 
@@ -493,6 +491,7 @@ stepper {
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+/*	background-color: orangered;*/
 }
 
 
@@ -535,9 +534,7 @@ button {
 /*	max-height: 500px;*/
 }
 
-.hideThis {
-	display: none;
-}
+
 
 example-image {
 	display: flex;
@@ -553,6 +550,10 @@ example-image {
  	width: auto;
   	height: auto;
   	margin: 1rem;
+}
+
+.hideThis {
+	display: none;
 }
 
 .listings2 {
@@ -894,6 +895,10 @@ background-color: rgba(218,165,32,0.5);
 	background-color: skyblue;
 }
 
+.hideThis {
+	display: none;
+	align-items: center;
+}
 
 .scifi-intro {
 	margin: 1rem;
@@ -926,7 +931,8 @@ body {
 }
 
 main {
-	width: 100%
+	width: 100%;
+
 }
 
 img {
@@ -1059,6 +1065,7 @@ button_next {  }
 button_previous {  }
 
 stepper { 
+	font-family: font-family: 'Noto Sans', sans-serif;
 	
  }
 
