@@ -303,6 +303,7 @@ p {
 .orange-sticky {
 	position: sticky;
 	top: 5rem;
+	
 	width: 300px;
 	background-color: darkorange;
 	padding: 1rem;
