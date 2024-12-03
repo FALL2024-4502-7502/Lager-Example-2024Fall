@@ -431,13 +431,18 @@ img {
 footer {
 	font-family: 'Playfair Display', serif;
 	font-weight: 100;
-
 	color: seagreen;
-/*	background-color: whitesmoke;*/
-	max-width: 800px;
+	background-color: whitesmoke;
+	max-width: 600px;
 	margin: auto;
 	
+	
 
+}
+
+footer p {
+	margin: auto;
+	padding: 1rem;
 }
 
 
