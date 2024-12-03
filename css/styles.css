@@ -1,5 +1,26 @@
 
 
+
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	background-color: teal;
+	margin: auto;
+	padding: 0.5rem;
+	color: #FFE3AA;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+.anchor-nav a {
+	color: #ffe3aa;
+}
+
+
 body {
 
 /*margin: auto;
@@ -9,8 +30,9 @@ body {
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;*/
-
-
+	background-color: rgba(229, 172, 103, 0.5);
+	overflow: scroll; /* Show scrollbars */
+	
 }
 
 .flexible {
